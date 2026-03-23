@@ -247,3 +247,20 @@
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0, 123, 255 , 0.3);
 }
+@media(max-width: 768px){
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0px;
+    }
+    .container{
+        padding-top: 120px;
+    }
+    .service-container, .project-grid{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+}
