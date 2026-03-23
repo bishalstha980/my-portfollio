@@ -250,11 +250,17 @@
 @media(max-width: 768px){
     nav ul{
         flex-direction: column;
+        gap: 15px;
+        padding: 20px 0px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+    }
+    .logo{
         text-align: center;
-        padding: 10px 0px;
+        margin-bottom: 10px;
     }
     .container{
-        padding-top: 120px;
+        padding-top: 150px;
     }
     .service-container, .project-grid{
         grid-template-columns: 1fr;
@@ -262,5 +268,9 @@
     }
     h1{
         font-size: 2rem;
+    }
+    .card{
+        width: 90%;
+        margin: 0 auto;
     }
 }
