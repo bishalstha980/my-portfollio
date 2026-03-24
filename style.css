@@ -213,7 +213,7 @@
 }
 @media(max-width: 768px){
     nav ul{
-        flex-direction: column;
+        flex-direction: row-reverse;
         gap: 15px;
         padding: 20px 0px;
         background-color: #f9f9f9;
