@@ -1,6 +1,14 @@
+:root{
+    --primary-color:#007bff;
+    --secondary-color: #0056b3;
+    --card-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
 *{
     padding: 0%;
     margin: 0%;
+    font-family: 'poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
 
    
 }
@@ -264,4 +272,24 @@ section h2{
 }
 .btn-small:hover{
     color: black;
+}
+.project-card, .card{
+    background: white;
+    border: none;
+    box-shadow: var(--card-shadow);
+    border-radius: 15px;
+}
+.btn, .project-card, .social-icons a{
+    transition: all 0.3s ease-in-out;
+}
+.project-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+.social-icons a:hover{
+    color: var(--primary-color);
+    transform: scale(1.1);
+}
+.footer-content p{
+    color: white;
 }
