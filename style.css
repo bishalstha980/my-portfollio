@@ -2,6 +2,14 @@
     --primary-color:#007bff;
     --secondary-color: #0056b3;
     --card-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --card-bg: #ffffff;
+}
+[data-theme="dark"]{
+    --bg-color: #121212;
+    --text-color: #f4f4f4;
+    --card-bg: #1e1e1e;
 }
 *{
     padding: 0%;
@@ -9,8 +17,9 @@
     font-family: 'poppins', sans-serif;
     color: #333;
     line-height: 1.6;
-
-   
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: 0.3s;   
 }
 .card{
     width: 300px;
@@ -274,7 +283,8 @@ section h2{
     color: black;
 }
 .project-card, .card{
-    background: white;
+    background-color: var(--bg-color);
+    color: var(--text-color);
     border: none;
     box-shadow: var(--card-shadow);
     border-radius: 15px;
@@ -290,6 +300,23 @@ section h2{
     color: var(--primary-color);
     transform: scale(1.1);
 }
-.footer-content p{
-    color: white;
+
+
+section{
+    padding: 80px 10px;
 }
+h2{
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+[dark-theme = "dark"] .project-card p,
+[dark-theme = "dark"] footer p,
+[dark-theme = "dark"] .social-icons a{
+    color: #bbbbbb;
+}
+[dark-theme = "dark"] h1,
+[dark-theme = "dark"] h2,
+[dark-theme = "dark"] h3{
+     color: #ffffff;
+}
+
