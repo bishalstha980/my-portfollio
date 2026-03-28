@@ -4,7 +4,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>my skill</title>
+  <title>Bishal Shrestha / Web Developer & Future Tech Founder</title>
+  <title>Bishal Shrestha | Web Developer & Future Tech Founder</title>
+  <meta name="title" content="Bishal Shrestha | Web Developer & Future Tech Founder">
+  <meta name="description" content="Civil Engineering student and Web Developer from Nepal. Building modern websites and seeking freelance opportunities.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bishalstha980.github.io/my-portfollio/">
+  <meta property="og:title" content="Bishal Shrestha | Portfolio">
+  <meta property="og:description" content="Check out my web development projects and journey.">
+  <meta property="og:image" content="bishal.jpeg">
+
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Bishal Shrestha | Portfolio">
+  <meta property="twitter:description" content="Web development learning journey and projects.">
+  <meta property="twitter:image" content="bishal.jpeg">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2? family=poppins:wght@300;400;600 and display=swap">
@@ -22,10 +36,12 @@
       <li><a href="#">Projects</a></li>
       <li><a href="Contact"></a></li>
     </ul>
+    <button id="theme-toggle" style="cursor: pointer; padding: 5px 10px; border-radius: 20px;"><i
+        class="fa-solid fa-circle-half-stroke"></i>Dark Mode</button>
   </nav>
   <div class="container">
     <div class="card">
-      <img src="bishal.jpeg" alt="Profile photo" class="profile-img" width="200px">
+      <img src="bishal.jpeg" alt="Bishal Shrestha-Web Developer" class="profile-img" width="200px">
       <h2 class="name">Bishal Shrestha</h2>
       <p class="role">Future Tech Founder</p>
       <p class="bio"> Web development learning, Dream to open a IT company in Nepal</p>
@@ -56,47 +72,49 @@
     <h2 class="section-title">My Projects</h2>
     <div class="project-grid">
       <div class="project-card">
-          <h3>My personal Portfollio</h3>
-          <p>Built using HTML, CSS, JS. Hosted on github pages. </p>
-          <a href="https://github.com/bishalstha980/my-portfollio" target="_blank" class="btn-small">view code</a>
+        <h3>My personal Portfollio</h3>
+        <p>Built using HTML, CSS, JS. Hosted on github pages. </p>
+        <a href="https://github.com/bishalstha980/my-portfollio" target="_blank" class="btn-small">view code</a>
       </div>
       <div class="project-card">
-          <h3>Cafe landing page</h3>
-          <p>A responsive landing page concept for a local Nepali cafe.</p>
-          <a href="#" class="btn-small">Demo link</a>
+        <h3>Cafe landing page</h3>
+        <p>A responsive landing page concept for a local Nepali cafe.</p>
+        <a href="#" class="btn-small">Demo link</a>
       </div>
     </div>
 
   </section>
- <section class="contact">
-  <h2 class="section-title">Get In Touch</h2>
-  <div class="contact-container">
-    <div class="contact-info">
-      <h3>Contact Information</h3>
-      <p><i class="fas fa-envelope"></i>bishalstha980@gmail.com</p>
-      <p><i class="fas fa-phone"></i>+977 9844462925</p>
-      <p><i class="fas fa-map-marker-alt"></i>Kathmandu, Nepal</p>
+  <section class="contact">
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-container">
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p><i class="fas fa-envelope"></i>bishalstha980@gmail.com</p>
+        <p><i class="fas fa-phone"></i>+977 9844462925</p>
+        <p><i class="fas fa-map-marker-alt"></i>Kathmandu, Nepal</p>
+      </div>
+      <form class="contact-form"  action="https://formspree.io/f/bishalstha980@gmail.com">
+       
+        <input type="text" placeholder="Your Name " required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="submit-btn">Send Message</button>
+        <p id="success-msg" style="color: green; display: none; margin-top: 10px;">Message sent successfully</p>
+      </form>
     </div>
-    <form class="contact-form">
-      <input type="text" placeholder="Your Name " required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" rows="5" required></textarea>
-      <button type="submit" class="submit-btn">Send Message</button>
-      <p id="success-msg" style="color: green; display: none; margin-top: 10px;">Message sent successfully</p>
-    </form>
-  </div>
- </section>
+  </section>
   <footer class="footer">
     <div class="footer-content">
       <p>Copyright &copy; 2026 Bishal Shrestha. All Rights Reserved</p>
       <div class="social-icons">
-        <a href="https://www.linkedin.com/in/bishal-shrestha-9606903b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Linkedin</a>
+        <a href="https://www.linkedin.com/in/bishal-shrestha-9606903b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          target="_blank">Linkedin</a>
         <a href="https://www.instagram.com/bishalstha980?igsh=ajIyZWN6eGJ5eHlp" target="_blank">Instagram</a>
         <a href="https://github.com/bishalstha980/my-portfollio" target="_blank">Github</a>
       </div>
     </div>
   </footer>
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
